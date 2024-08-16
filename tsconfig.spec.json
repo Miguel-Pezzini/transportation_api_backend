@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es2017",
+    "types": ["jest"]
+  },
+  "include": ["src/**/*.spec.ts", "src/**/*.d.ts"]
+}
